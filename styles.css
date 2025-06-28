@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /*====colors=====*/
+  --black: #000000;
+  --darkgrey: #4d5562;
+  --lightgrey: #d9d9d9;
+  --offwhite: #f8fafc;
+
+  /*====typographies====*/
+  --semibold-weight: 600;
+  --medium-weight: 500;
+  --large-heading: 2.25rem;
+  --small-heading: 1.25rem;
+  --small-text: 0.875rem;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.8rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: var(--large-heading);
+  font-weight: var(--semibold-weight);
+  color: var(--black);
+}
+
+img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: var(--small-heading);
+  font-weight: var(--semibold-weight);
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: var(--small-text);
+  font-weight: var(--medium-weight);
+  color: var(--darkgrey);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/*====media queries ====*/
+
+/*===media querie 640px===*/
+@media (min-width: 40rem) {
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*===media querie 1024px===*/
+@media (min-width: 64rem) {
+  main {
+    padding: 3rem 9rem 3rem 9rem;
+  }
+}
+
+/*===media querie 1280px===*/
+@media (min-width: 80rem) {
+  main {
+    padding: 3rem 17rem 3rem 17rem;
+  }
+}
