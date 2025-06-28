@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href=" https://nathanraym.github.io/DevChallengesIO-Simple-Article-Listing/">
+    <a href="https://nathanraym.github.io/DevChallengesIO-Simple-Article-Listing/">
       Demo
     </a>
     <span> | </span>
