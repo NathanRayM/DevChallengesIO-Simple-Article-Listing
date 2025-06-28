@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href=" https://nathanraym.github.io/DevChallengesIO-Simple-Article-Listing/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/NathanRayM/DevChallengesIO-Simple-Article-Listing.git">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/NathanRayM/devchallengesio/blob/main/images/Desktop_1350px.jpg)
+![screenshot](https://github.com/NathanRayM/DevChallengesIO-Simple-Article-Listing/blob/main/images/Desktop_1350px.jpg)
 
 Simple Article Listing
 Code a simple article listing challenge with HTML and CSS to practice flexbox and working with article elements.
